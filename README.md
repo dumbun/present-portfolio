@@ -1,3 +1,18 @@
+
+This is my Secound Portfolio 😊
+In this project I used Next.js 
+presently running www.dumbun.xyz
+
+# Screenshots
+
+![Screenshot 2023-03-17 at 10 41 16 PM](https://user-images.githubusercontent.com/113350510/225973240-55c865f9-a8f9-4274-b1db-06bf731c2565.png)
+![Screenshot 2023-03-17 at 10 41 27 PM](https://user-images.githubusercontent.com/113350510/225973249-c552837e-83e3-490a-b357-690b2aa37164.png)
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

@@ -1,7 +1,7 @@
 
 This is my Secound Portfolio 😊
 In this project I used Next.js 
-presently running www.dumbun.xyz
+presently running on www.dumbun.xyz
 
 # Screenshots
 

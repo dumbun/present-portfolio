@@ -245,7 +245,7 @@ export default function Home() {
               </a>
             </div>
             <div className="basis-1/4 flex-1">
-              <a href="https://bright-lamb-tux.cyclic.app/">
+              <a href="https://dumbun.github.io/first_portfolio/">
                 <Image
                   alt="Vamshi Krishna"
                   className="rounded-lg object-cover"

@@ -80,7 +80,7 @@ export default function Home() {
             <Image
               alt="Vamshi Krishna"
               src={dumbun}
-              layout="fit"
+              layout="fill"
               objectFit="cover"
             />
           </div>

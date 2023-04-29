@@ -73,20 +73,26 @@ export default function Home() {
               video games.
             </p>
           </div>
-          <div className="text-5xl flex justify-center py-3 text-gray-600 gap-16">
-            <a href="mailto: vamshikrishna8289@gmail.com">
+          <div className="flex-wrap text-5xl flex justify-center py-3 text-gray-600 gap-16">
+            <a className="" href="mailto: vamshikrishna8289@gmail.com">
               <AiFillMail className="cursor-pointer dark:text-teal-800" />
             </a>
-            <a href="https://www.instagram.com/iam.vamshikrishna/">
+            <a className="" href="https://www.instagram.com/iam.vamshikrishna/">
               <AiFillInstagram className="cursor-pointer dark:text-teal-800" />
             </a>
-            <a href="https://www.linkedin.com/in/vamshi-krishna-b38709155/">
+            <a
+              className=""
+              href="https://www.linkedin.com/in/vamshi-krishna-b38709155/"
+            >
               <AiFillLinkedin className="cursor-pointer dark:text-teal-800" />
             </a>
-            <a href="https://github.com/dumbun">
+            <a className="" href="https://github.com/dumbun">
               <AiFillGithub className="cursor-pointer dark:text-teal-800" />
             </a>
-            <a href="https://developers.google.com/profile/u/vamshikrishna2000">
+            <a
+              className=""
+              href="https://developers.google.com/profile/u/vamshikrishna2000"
+            >
               <AiFillGoogleCircle className="cursor-pointer dark:text-teal-800" />
             </a>
           </div>

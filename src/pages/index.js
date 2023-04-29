@@ -18,7 +18,8 @@ import web9 from "../../public/web9.png";
 import oldTerminalSite from "../../public/old-terminal-site.png";
 import blogSite from "../../public/blog-site.png";
 import PreviousSiteGif from "../../public/previousSite.gif";
-import { useState } from "react";
+
+import { lazy, useState } from "react";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -171,6 +172,47 @@ export default function Home() {
               Previous Work
             </h4>
           </div>
+          <h3 className="py-4 text-3xl text-teal-600 mx-auto mb-0">
+            Mobile Applications:-
+          </h3>
+          <div className="flex flex-col gap-5 py-10 lg:flex-row lg:flex-wrap ">
+            <div className="basis-1/5 flex-1 ">
+              <a href="https://github.com/dumbun/In-Touch-Messenger">
+                <video
+                  height={300}
+                  src="https://user-images.githubusercontent.com/113350510/235297331-2d0205ce-de7c-4623-ab5f-943a069cbd97.webm"
+                  autoPlay
+                  loop
+                  muted
+                ></video>
+              </a>
+            </div>
+            <div className="basis-1/5 flex-1 ">
+              <a href="https://github.com/dumbun/sign-up-page-flutter">
+                <video
+                  height={500}
+                  muted
+                  loop
+                  autoPlay
+                  src="https://user-images.githubusercontent.com/113350510/235296044-f06a0186-3870-414e-87a2-bedf3f3f2db2.webm"
+                ></video>
+              </a>
+            </div>
+            <div className="basis-1/5 flex-1 ">
+              <a href="https://github.com/dumbun/Personal-Expenses">
+                <video
+                  height={500}
+                  muted
+                  loop
+                  autoPlay
+                  src="https://user-images.githubusercontent.com/113350510/235297032-06109659-8ec1-45ba-988b-3fd95efade6f.webm"
+                ></video>
+              </a>
+            </div>
+          </div>
+          <h3 className="py-4 text-3xl text-teal-600 mx-auto mb-0">
+            Web Applications:-
+          </h3>
           <div className="flex flex-col gap-5 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/4 flex-1 ">
               <a href="https://dumbun.github.io/tindog/">

@@ -106,9 +106,14 @@ export default function Home() {
             <p className="text-md py-5 leading-8 text-gray-800 mb-10 dark:text-gray-500">
               Since the beginning of my journey as a freelance designer and
               developer, I have done remote work for
-              <span className="text-teal-500"> customers</span> and collaborated
-              with <span className="text-teal-500">talented people</span> to
-              create digital products for customer use.
+              <span className="text-teal-500">
+                <strong> customers</strong>
+              </span>{" "}
+              and collaborated with{" "}
+              <span className="text-teal-500">
+                <strong>talented people</strong>
+              </span>{" "}
+              to create digital products for customer use.
             </p>
           </div>
           <div className="lg:flex gap-10 ">
@@ -181,8 +186,8 @@ export default function Home() {
         </section>
         <section>
           <div className="flex m-10 mb-0">
-            <h4 className="py-4 text-3xl text-teal-600 mx-auto mb-0">
-              Previous Work
+            <h4 className="py-4 text-3xl text-teal-600 mx-auto mb-0 font-bold">
+              Previous Works
             </h4>
           </div>
           <h3 className="py-4 text-3xl text-teal-600 mx-auto mb-0">

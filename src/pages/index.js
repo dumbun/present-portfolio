@@ -1,6 +1,13 @@
 import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
-import { AiFillInstagram, AiFillLinkedin, AiFillGithub } from "react-icons/ai";
+import {
+  AiFillInstagram,
+  AiFillLinkedin,
+  AiFillGithub,
+  AiFillMessage,
+  AiFillMail,
+  AiFillGoogleCircle,
+} from "react-icons/ai";
 import Image from "next/image";
 import dumbun from "../../public/vamshikrishna.png";
 import design from "../../public/design.png";
@@ -67,6 +74,9 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center py-3 text-gray-600 gap-16">
+            <a href="mailto: vamshikrishna8289@gmail.com">
+              <AiFillMail className="cursor-pointer dark:text-teal-800" />
+            </a>
             <a href="https://www.instagram.com/iam.vamshikrishna/">
               <AiFillInstagram className="cursor-pointer dark:text-teal-800" />
             </a>
@@ -75,6 +85,9 @@ export default function Home() {
             </a>
             <a href="https://github.com/dumbun">
               <AiFillGithub className="cursor-pointer dark:text-teal-800" />
+            </a>
+            <a href="https://developers.google.com/profile/u/vamshikrishna2000">
+              <AiFillGoogleCircle className="cursor-pointer dark:text-teal-800" />
             </a>
           </div>
           <div className="relative bg-gradient-to-b rounded-full w-80 h-80 mt-20 mx-auto from-teal-500 overflow-hidden md:h-96 md:w-96">

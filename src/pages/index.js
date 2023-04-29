@@ -1,18 +1,20 @@
 import Head from "next/head";
-import { BsFillMoonStarsFill } from "react-icons/bs";
+import Image from "next/image";
 import {
+  AiFillGithub,
+  AiFillGoogleCircle,
   AiFillInstagram,
   AiFillLinkedin,
-  AiFillGithub,
-  AiFillMessage,
   AiFillMail,
-  AiFillGoogleCircle,
 } from "react-icons/ai";
-import Image from "next/image";
-import dumbun from "../../public/vamshikrishna.png";
-import design from "../../public/design.png";
+import { BsFillMoonStarsFill } from "react-icons/bs";
+import blogSite from "../../public/blog-site.png";
 import code from "../../public/code.png";
 import consulting from "../../public/consulting.png";
+import design from "../../public/design.png";
+import oldTerminalSite from "../../public/old-terminal-site.png";
+import PreviousSiteGif from "../../public/previousSite.gif";
+import dumbun from "../../public/vamshikrishna.png";
 import web1 from "../../public/web1.png";
 import web2 from "../../public/web2.png";
 import web3 from "../../public/web3.png";
@@ -22,14 +24,11 @@ import web6 from "../../public/web6.png";
 import web7 from "../../public/web7.png";
 import web8 from "../../public/web8.png";
 import web9 from "../../public/web9.png";
-import oldTerminalSite from "../../public/old-terminal-site.png";
-import blogSite from "../../public/blog-site.png";
-import PreviousSiteGif from "../../public/previousSite.gif";
 
-import { lazy, useState } from "react";
+import react from "react";
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = react.useState(false);
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>

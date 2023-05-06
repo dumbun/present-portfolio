@@ -15,6 +15,7 @@ import design from "../../public/design.png";
 import oldTerminalSite from "../../public/old-terminal-site.png";
 import PreviousSiteGif from "../../public/previousSite.gif";
 import dumbun from "../../public/vamshikrishna.png";
+import pinterest from "../../public/pinterest-clone.png";
 import web1 from "../../public/web1.png";
 import web2 from "../../public/web2.png";
 import web3 from "../../public/web3.png";
@@ -378,6 +379,18 @@ export default function Home() {
                   height={"100%"}
                   layout="responsive"
                   src={blogSite}
+                />
+              </a>
+            </div>
+            <div className="basis-1/4 flex-1 ">
+              <a href="https://pinterest-clone-fawn.vercel.app/">
+                <Image
+                  alt="Vamshi Krishna"
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                  src={pinterest}
                 />
               </a>
             </div>

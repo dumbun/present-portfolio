@@ -28,12 +28,7 @@ span {
 }
 
 span:hover {
-  text-decoration: underline;
   color: #06787c;
   cursor: pointer;
   font-size: 4rem;
-}
-
-.avatarBackground {
-  background-image: linear-gradient(rgb(161, 77, 77), rgb(255, 255, 244));
 }

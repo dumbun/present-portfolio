@@ -63,7 +63,7 @@ export default function Home() {
           </nav>
           <div className="text-center p-10 ">
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">
-              K Vamshi Krishna
+              <span> K Vamshi Krishna</span>
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
               Web and Mobile Developer.
@@ -96,7 +96,7 @@ export default function Home() {
               <AiFillGoogleCircle className="cursor-pointer dark:text-teal-800" />
             </a>
           </div>
-          <div className="relative bg-gradient-to-b rounded-full w-80 h-80 mt-20 mx-auto from-teal-500 overflow-hidden md:h-96 md:w-96">
+          <div className=" relative bg-gradient-to-b rounded-full w-80 h-80 mt-20 mx-auto from-teal-500 overflow-hidden md:h-96 md:w-96">
             <Image
               alt="Vamshi Krishna"
               src={dumbun}

@@ -82,7 +82,7 @@ export default function Home() {
             </a>
             <a
               className=""
-              href="https://www.linkedin.com/in/vamshi-krishna-k-b38709155/"
+              href="https://www.linkedin.com/in/vamshi-k-b38709155/"
             >
               <AiFillLinkedin className="cursor-pointer dark:text-teal-800" />
             </a>

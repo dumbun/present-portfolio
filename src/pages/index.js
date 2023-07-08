@@ -27,6 +27,7 @@ import web8 from "../../public/web8.png";
 import web9 from "../../public/web9.png";
 
 import react from "react";
+import TimeLine from "./components/timeline";
 
 export default function Home() {
   const [darkMode, setDarkMode] = react.useState(false);
@@ -105,7 +106,7 @@ export default function Home() {
             />
           </div>
         </section>
-
+        <TimeLine />
         <section>
           <div>
             <h3 className="text-3xl py-1 dark:text-white">Services I offer</h3>
@@ -129,7 +130,7 @@ export default function Home() {
                 src={design}
                 width={100}
                 height={100}
-                className="mx-auto"
+                className="mx-auto pt-5"
               />
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
                 Beautiful Designs
@@ -154,7 +155,7 @@ export default function Home() {
                 src={code}
                 width={100}
                 height={100}
-                className="mx-auto"
+                className="mx-auto pt-5"
               />
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
                 Code
@@ -171,7 +172,7 @@ export default function Home() {
                 src={consulting}
                 width={100}
                 height={100}
-                className="mx-auto"
+                className="mx-auto pt-5"
               />
               <h3 className="text-lg font-medium pt-8 pb-2  dark:text-white">
                 Creating

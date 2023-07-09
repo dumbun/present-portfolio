@@ -10,7 +10,7 @@ import TimeLine from "./components/timeline";
 import PreviousWebPageHolder from "../pages/components/perviousWebPageHolder";
 import PreviousMobileDevHolder from "../pages/components/previousMobileDevHolder";
 import react from "react";
-import * as links from "../links";
+import * as previousWorks from "../previousWorks";
 export default function Home() {
   const [darkMode, setDarkMode] = react.useState(false);
   return (
@@ -161,7 +161,7 @@ export default function Home() {
             Mobile Applications:-
           </h3>
           <div className="flex flex-col gap-5 py-10 lg:flex-row lg:flex-wrap ">
-            {links.previousMobileDevelopmentWorks.map((e) => (
+            {previousWorks.previousMobileDevelopmentWorks.map((e) => (
               <PreviousMobileDevHolder key={e.link} link={e.link} src={e.src} />
             ))}
           </div>
@@ -169,7 +169,7 @@ export default function Home() {
             Web Applications:-
           </h3>
           <div className="flex flex-col gap-5 py-10 lg:flex-row lg:flex-wrap">
-            {links.previousWebDevelopmentWorks.map((e) => (
+            {previousWorks.previousWebDevelopmentWorks.map((e) => (
               <PreviousWebPageHolder key={e} src={e.src} link={e.link} />
             ))}
           </div>

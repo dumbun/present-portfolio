@@ -25,7 +25,6 @@ import web6 from "../../public/web6.png";
 import web7 from "../../public/web7.png";
 import web8 from "../../public/web8.png";
 import web9 from "../../public/web9.png";
-
 import react from "react";
 import TimeLine from "./components/timeline";
 

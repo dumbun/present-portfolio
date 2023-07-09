@@ -1,6 +1,4 @@
-import react from "react";
 import Image from "next/image";
-import { IoLogoGooglePlaystore } from "react-icons/io5";
 import { RxNotionLogo } from "react-icons/rx";
 import ept from "../../../public/ept.svg";
 import dd from "../../../public/divinduty.svg";

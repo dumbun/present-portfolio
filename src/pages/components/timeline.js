@@ -79,8 +79,7 @@ export default function TimeLine() {
                       EPT School Managemen
                     </strong>{" "}
                     and <strong className="text-teal-600">Divine Duty</strong> ,
-                    which are currently available on the Play Store. git and git
-                    lab and zoho workspace and atlash and bitbucket
+                    which are currently available on the Play Store.
                   </i>
                 </li>
               </ol>
@@ -120,68 +119,4 @@ export default function TimeLine() {
       </div>
     </section>
   );
-}
-
-{
-  /* <li className="ml-6">
-            <SmallCalenderIcon />
-            <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-              <span>
-                <a href="https://www.linkedin.com/company/redparrottechnology/">
-                  Redparrot Technology
-                </a>
-              </span>
-            </h3>
-            <SimpleDate content="started on May 5th, 2023 - Present" />
-            <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-              Flutter Developer at Banglore ~ Remote
-              <i>
-                I have gained valuable experience as a Flutter developer since
-                May 5th. During my time there, I worked on both the front-end
-                and back-end development of various projects. I actively
-                contributed to the development of two live andriod applications,
-                namely{" "}
-                <strong className="text-teal-600">EPT School Managemen</strong>{" "}
-                and <strong className="text-teal-600">Divine Duty</strong> ,
-                which are currently available on the Play Store. git and git lab
-                and zoho workspace and atlash and bitbucket
-              </i>
-            </p>
-            <div className="py-5">
-              <div className="flex flex-col   lg:flex-row lg:flex-wrap md:flex-wrap">
-                <div className="text-center   rounded-xl flex-wrap dark:lg:shadow-white">
-                  <Image
-                    alt="Vamshi Krishna"
-                    src={ept}
-                    width={40}
-                    height={40}
-                    className="mx-auto pt-5 mb-3"
-                  />
-                  <a
-                    href="#"
-                    class="  inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
-                  >
-                    <IoLogoGooglePlaystore className="mr-1" />
-                    Try out
-                  </a>
-                </div>
-                <div className="text-center ml-3 flex-wrap dark:lg:shadow-white ">
-                  <Image
-                    alt="Vamshi Krishna"
-                    src={dd}
-                    width={40}
-                    height={40}
-                    className="mx-auto pt-5 mb-3"
-                  />
-                  <a
-                    href="#"
-                    class="  inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
-                  >
-                    <IoLogoGooglePlaystore className="mr-1" />
-                    Try out
-                  </a>
-                </div>
-              </div>
-            </div>
-          </li> */
 }

@@ -1,33 +1,16 @@
 import Head from "next/head";
 import Image from "next/image";
-import {
-  AiFillGithub,
-  AiFillGoogleCircle,
-  AiFillInstagram,
-  AiFillLinkedin,
-  AiFillMail,
-} from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
-import blogSite from "../../public/blog-site.png";
+import Socials from "../pages/components/socials";
 import code from "../../public/code.png";
 import consulting from "../../public/consulting.png";
 import design from "../../public/design.png";
-import oldTerminalSite from "../../public/old-terminal-site.png";
-import PreviousSiteGif from "../../public/previousSite.gif";
 import dumbun from "../../public/vamshikrishna.png";
-import pinterest from "../../public/pinterest-clone.png";
-import web1 from "../../public/web1.png";
-import web2 from "../../public/web2.png";
-import web3 from "../../public/web3.png";
-import web4 from "../../public/web4.png";
-import web5 from "../../public/web5.png";
-import web6 from "../../public/web6.png";
-import web7 from "../../public/web7.png";
-import web8 from "../../public/web8.png";
-import web9 from "../../public/web9.png";
-import react from "react";
 import TimeLine from "./components/timeline";
-
+import PreviousWebPageHolder from "../pages/components/perviousWebPageHolder";
+import PreviousMobileDevHolder from "../pages/components/previousMobileDevHolder";
+import react from "react";
+import * as links from "../links";
 export default function Home() {
   const [darkMode, setDarkMode] = react.useState(false);
   return (
@@ -73,29 +56,7 @@ export default function Home() {
               video games.
             </p>
           </div>
-          <div className="flex-wrap text-5xl flex justify-center py-3 text-gray-600 gap-16">
-            <a className="" href="mailto: vamshikrishna8289@gmail.com">
-              <AiFillMail className="cursor-pointer dark:text-teal-800" />
-            </a>
-            <a className="" href="https://www.instagram.com/iam.vamshikrishna/">
-              <AiFillInstagram className="cursor-pointer dark:text-teal-800" />
-            </a>
-            <a
-              className=""
-              href="https://www.linkedin.com/in/vamshi-k-b38709155/"
-            >
-              <AiFillLinkedin className="cursor-pointer dark:text-teal-800" />
-            </a>
-            <a className="" href="https://github.com/dumbun">
-              <AiFillGithub className="cursor-pointer dark:text-teal-800" />
-            </a>
-            <a
-              className=""
-              href="https://developers.google.com/profile/u/vamshikrishna2000"
-            >
-              <AiFillGoogleCircle className="cursor-pointer dark:text-teal-800" />
-            </a>
-          </div>
+          <Socials />
           <div className=" relative bg-gradient-to-b rounded-full w-80 h-80 mt-20 mx-auto from-teal-500 overflow-hidden md:h-96 md:w-96">
             <Image
               alt="Vamshi Krishna"
@@ -200,200 +161,17 @@ export default function Home() {
             Mobile Applications:-
           </h3>
           <div className="flex flex-col gap-5 py-10 lg:flex-row lg:flex-wrap ">
-            <div className="basis-1/5 flex-1 ">
-              <a href="https://github.com/dumbun/In-Touch-Messenger">
-                <video
-                  height={300}
-                  src="https://user-images.githubusercontent.com/113350510/235297331-2d0205ce-de7c-4623-ab5f-943a069cbd97.webm"
-                  autoPlay
-                  loop
-                  muted
-                ></video>
-              </a>
-            </div>
-            <div className="basis-1/5 flex-1 ">
-              <a href="https://github.com/dumbun/sign-up-page-flutter">
-                <video
-                  height={500}
-                  muted
-                  loop
-                  autoPlay
-                  src="https://user-images.githubusercontent.com/113350510/235296044-f06a0186-3870-414e-87a2-bedf3f3f2db2.webm"
-                ></video>
-              </a>
-            </div>
-            <div className="basis-1/5 flex-1 ">
-              <a href="https://github.com/dumbun/Personal-Expenses">
-                <video
-                  height={500}
-                  muted
-                  loop
-                  autoPlay
-                  src="https://user-images.githubusercontent.com/113350510/235297032-06109659-8ec1-45ba-988b-3fd95efade6f.webm"
-                ></video>
-              </a>
-            </div>
+            {links.previousMobileDevelopmentWorks.map((e) => (
+              <PreviousMobileDevHolder key={e.link} link={e.link} src={e.src} />
+            ))}
           </div>
           <h3 className="py-4 text-3xl text-teal-600 mx-auto mb-0">
             Web Applications:-
           </h3>
           <div className="flex flex-col gap-5 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/4 flex-1 ">
-              <a href="https://dumbun.github.io/tindog/">
-                <Image
-                  alt="Vamshi Krishna"
-                  className="rounded-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={web1}
-                />
-              </a>
-            </div>
-            <div className="basis-1/4 flex-1">
-              <a href="https://dumbun.github.io/Random-Dicee/">
-                <Image
-                  alt="Vamshi Krishna"
-                  className="rounded-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={web2}
-                />
-              </a>
-            </div>
-            <div className="basis-1/4 flex-1">
-              <a href="https://dumbun.github.io/Drum-Kit/">
-                <Image
-                  alt="Vamshi Krishna"
-                  className="rounded-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={web3}
-                />
-              </a>
-            </div>
-            <div className="basis-1/4 flex-1">
-              <a href="https://dumbun.github.io/Rem-Px-Calculator/">
-                <Image
-                  alt="Vamshi Krishna"
-                  className="rounded-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={web4}
-                />
-              </a>
-            </div>
-            <div className="basis-1/4 flex-1">
-              <a href="https://dumbun.github.io/rock-paper-scissors/">
-                <Image
-                  alt="Vamshi Krishna"
-                  className="rounded-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={web5}
-                />
-              </a>
-            </div>
-            <div className="basis-1/4 flex-1">
-              <a href="https://dumbun.github.io/SIMON-Game/">
-                <Image
-                  alt="Vamshi Krishna"
-                  className="rounded-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={web6}
-                />
-              </a>
-            </div>
-            <div className="basis-1/4 flex-1">
-              <a href="https://dumbun.github.io/first_portfolio/">
-                <Image
-                  alt="Vamshi Krishna"
-                  className="rounded-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={PreviousSiteGif}
-                />
-              </a>
-            </div>
-            <div className="basis-1/4 flex-1">
-              <a href="https://dumbun.github.io/stop-watch/">
-                <Image
-                  alt="Vamshi Krishna"
-                  className="rounded-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={web7}
-                />
-              </a>
-            </div>
-            <div className="basis-1/4 flex-1">
-              <a href="https://dumbun.github.io/Tip-Calculator/">
-                <Image
-                  alt="Vamshi Krishna"
-                  className="rounded-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={web8}
-                />
-              </a>
-            </div>
-            <div className="basis-1/4 flex-1">
-              <a href="https://dumbun.github.io/weather-app/">
-                <Image
-                  alt="Vamshi Krishna"
-                  className="rounded-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={web9}
-                />
-              </a>
-            </div>
-            <div className="basis-1/4 flex-1">
-              <a href="https://dumbun.github.io/old-site/">
-                <Image
-                  alt="Vamshi Krishna"
-                  className="rounded-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={oldTerminalSite}
-                />
-              </a>
-            </div>
-            <div className="basis-1/4 flex-1">
-              <a href="https://bright-lamb-tux.cyclic.app/">
-                <Image
-                  alt="Vamshi Krishna"
-                  className="rounded-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={blogSite}
-                />
-              </a>
-            </div>
-            <div className="basis-1/4 flex-1 ">
-              <a href="https://pinterest-clone-fawn.vercel.app/">
-                <Image
-                  alt="Vamshi Krishna"
-                  className="rounded-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={pinterest}
-                />
-              </a>
-            </div>
+            {links.previousWebDevelopmentWorks.map((e) => (
+              <PreviousWebPageHolder key={e} src={e.src} link={e.link} />
+            ))}
           </div>
         </section>
       </main>

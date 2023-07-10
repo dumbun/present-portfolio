@@ -73,11 +73,16 @@ export default function TimeLine() {
                     front-end and back-end development of various projects. I
                     actively contributed to the development of two live andriod
                     applications, namely{" "}
-                    <strong className="text-teal-600">
-                      EPT School Managemen
-                    </strong>{" "}
-                    and <strong className="text-teal-600">Divine Duty</strong> ,
-                    which are currently available on the Play Store.
+                    <a href="https://ept.global/">
+                      <strong className="text-teal-600">
+                        EPT School Management
+                      </strong>
+                    </a>{" "}
+                    and{" "}
+                    <a href="https://divineduty.co/">
+                      <strong className="text-teal-600">Divine Duty</strong>
+                    </a>{" "}
+                    , which are currently available on the Play Store.
                   </i>
                 </li>
               </ol>

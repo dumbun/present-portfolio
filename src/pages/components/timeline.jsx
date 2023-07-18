@@ -6,6 +6,7 @@ import LatestTag from "./latestTag";
 import SmallCalenderIcon from "./smallCalenderIcon";
 import BlinkingDate from "./blinkingDate";
 import SimpleDate from "./simpleDate";
+import selfFinanceLogo from "../../../public/self-finance-logo.svg";
 
 export default function TimeLine() {
   return (
@@ -18,7 +19,10 @@ export default function TimeLine() {
           <li className="mb-10 ml-6">
             <SmallCalenderIcon />
             <h3 className="flex items-center mb-1  text-lg font-semibold text-gray-900 dark:text-white">
-              Self-Finance Application <LatestTag />
+              <a href="https://self-finance-web.vercel.app/">
+                <span>Self-Finance Application</span>
+              </a>{" "}
+              <LatestTag />
             </h3>
             <BlinkingDate />
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
@@ -30,6 +34,7 @@ export default function TimeLine() {
                 interest with out any hassle and see the data whenever required.
               </i>
             </p>
+
             <a
               href="https://ebony-wholesaler-6b8.notion.site/Self-finance-app-dd8b4092b35e408fa4538713b4361a6d"
               className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
@@ -51,6 +56,18 @@ export default function TimeLine() {
                 <path d="M18 12h-2.55l-2.975 2.975a3.5 3.5 0 0 1-4.95 0L4.55 12H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Zm-3 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z" />
               </svg>{" "}
               Download ZIP
+            </a>
+            <a
+              href="https://self-finance-web.vercel.app/"
+              className="ml-3 inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+            >
+              <Image
+                height={20}
+                className="mr-2 rounded-full"
+                alt="self finance self-finance vamshi krishna"
+                src={selfFinanceLogo}
+              />
+              website
             </a>
           </li>
           <li className="mb-10 ml-6">

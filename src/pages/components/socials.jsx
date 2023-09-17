@@ -15,7 +15,10 @@ export default function Socials() {
       <a className="" href="https://www.instagram.com/iam.vamshikrishna/">
         <AiFillInstagram className="cursor-pointer dark:text-teal-800" />
       </a>
-      <a className="" href="https://www.linkedin.com/in/vamshi-k-b38709155/">
+      <a
+        className=""
+        href="https://www.linkedin.com/in/vamshi-krishna-kamsali-b38709155/"
+      >
         <AiFillLinkedin className="cursor-pointer dark:text-teal-800" />
       </a>
       <a className="" href="https://github.com/dumbun">

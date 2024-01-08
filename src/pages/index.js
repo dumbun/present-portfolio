@@ -13,12 +13,15 @@ import ServicesSection from "./components/servives";
 
 export default function Home() {
   const onButtonClick = () => {
+
+    const pdfUrl = "https://drive.google.com/file/d/1BE9PHaQ-VBFAj45oAPkAs2OEdTNzCDww/";
     const link = document.createElement("a");
-    link.href = "https://drive.google.com/file/d/1BE9PHaQ-VBFAj45oAPkAs2OEdTNzCDww/view?usp=sharing";
-    link.open = "resume.pdf"; // specify the filename
+    link.href = pdfUrl;
+    link.download = "document.pdf"; // specify the filename
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
+
   };
   const [darkMode, setDarkMode] = react.useState(false);
   return (

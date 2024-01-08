@@ -9,8 +9,17 @@ import PreviousMobileDevHolder from "../pages/components/previousMobileDevHolder
 import react from "react";
 import { previousMobileDevelopmentWorks, previousWebDevelopmentWorks } from "../apis/previousWorks";
 import ServicesSection from "./components/servives";
+// import resumepdf from "../../public/resume.pdf"
 
 export default function Home() {
+  const onButtonClick = () => {
+    const link = document.createElement("a");
+    link.href = "https://drive.google.com/file/d/1BE9PHaQ-VBFAj45oAPkAs2OEdTNzCDww/view?usp=sharing";
+    link.open = "resume.pdf"; // specify the filename
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   const [darkMode, setDarkMode] = react.useState(false);
   return (
     <div className={darkMode ? "dark" : ""}>
@@ -37,12 +46,12 @@ export default function Home() {
                 />
               </li>
               <li>
-                <a
+                <button
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 "
-                  href="https://drive.google.com/file/d/1fG19s3FCfzLB2ebq3gbChDnklF4r0n-d/view?usp=share_link"
+                  onClick={onButtonClick}
                 >
                   Resume
-                </a>
+                </button>
               </li>
             </ul>
           </nav>

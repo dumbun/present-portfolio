@@ -7,8 +7,9 @@ import TimeLine from "./components/timeline";
 import PreviousWebPageHolder from "../pages/components/perviousWebPageHolder";
 import PreviousMobileDevHolder from "../pages/components/previousMobileDevHolder";
 import react from "react";
-import { previousMobileDevelopmentWorks, previousWebDevelopmentWorks } from "../apis/previousWorks";
+import { previousMobileDevelopmentWorks, previousWebDevelopmentWorks } from "../previousWorks";
 import ServicesSection from "./components/servives";
+
 
 export default function Home() {
   const [darkMode, setDarkMode] = react.useState(false);
@@ -18,8 +19,7 @@ export default function Home() {
         <title>Kamsali Vamshi Krishna</title>
         <meta
           name="description"
-          content="Hello there! my name is vamshi krishna, I'm a developer and a MSC computing student in Edinburgh Napier University"
-        />
+          content="Hello there! my name is vamshi krishna, I'm a developer and a MSC computing student in Edinburgh Napier University" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/public/favicon.ico" />
       </Head>
@@ -33,8 +33,7 @@ export default function Home() {
                   onClick={() => {
                     setDarkMode(!darkMode);
                   }}
-                  className="cursor-pointer text-2xl dark:text-white"
-                />
+                  className="cursor-pointer text-2xl dark:text-white" />
               </li>
               <li>
                 <a
@@ -64,8 +63,7 @@ export default function Home() {
               alt="kamsali vamshi krishna"
               src={dumbun}
               layout="fill"
-              objectFit="cover"
-            />
+              objectFit="cover" />
           </div>
         </section>
         <TimeLine />
@@ -102,3 +100,4 @@ export default function Home() {
     </div>
   );
 }
+

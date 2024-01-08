@@ -1,16 +1,16 @@
-import pinterest from "../public/pinterest-clone.png";
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
-import web7 from "../public/web7.png";
-import web8 from "../public/web8.png";
-import web9 from "../public/web9.png";
-import oldTerminalSite from "../public/old-terminal-site.png";
-import PreviousSiteGif from "../public/previousSite.gif";
-import blogSite from "../public/blog-site.png";
+import pinterest from "../../public/pinterest-clone.png";
+import web1 from "../../public/web1.png";
+import web2 from "../../public/web2.png";
+import web3 from "../../public/web3.png";
+import web4 from "../../public/web4.png";
+import web5 from "../../public/web5.png";
+import web6 from "../../public/web6.png";
+import web7 from "../../public/web7.png";
+import web8 from "../../public/web8.png";
+import web9 from "../../public/web9.png";
+import oldTerminalSite from "../../public/old-terminal-site.png";
+import PreviousSiteGif from "../../public/previousSite.gif";
+import blogSite from "../../public/blog-site.png";
 
 export const previousWebDevelopmentWorks = [
   { src: web1, link: "https://dumbun.github.io/tindog/" },

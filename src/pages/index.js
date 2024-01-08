@@ -9,19 +9,15 @@ import PreviousMobileDevHolder from "../pages/components/previousMobileDevHolder
 import react from "react";
 import { previousMobileDevelopmentWorks, previousWebDevelopmentWorks } from "../apis/previousWorks";
 import ServicesSection from "./components/servives";
-// import resumepdf from "../../public/resume.pdf"
 
 export default function Home() {
   const onButtonClick = () => {
-
-    const pdfUrl = "https://drive.google.com/file/d/1BE9PHaQ-VBFAj45oAPkAs2OEdTNzCDww/";
     const link = document.createElement("a");
-    link.href = pdfUrl;
-    link.download = "document.pdf"; // specify the filename
+    link.href = "https://drive.google.com/file/d/1BE9PHaQ-VBFAj45oAPkAs2OEdTNzCDww/";
+    link.download = "vamshi-krishna-resume.pdf"; // specify the filename
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-
   };
   const [darkMode, setDarkMode] = react.useState(false);
   return (

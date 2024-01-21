@@ -53,7 +53,7 @@ export default function Home() {
               Web and Mobile Developer.
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-400">
-              Im a Creator, and Technology Enthusiast. I ❤️ coffe and playing
+              Im a Creator, and Technology Enthusiast. I ❤️ coffee and playing
               video games.
             </p>
           </div>

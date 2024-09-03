@@ -4,7 +4,6 @@ import ept from "../../../public/ept.svg";
 import dd from "../../../public/divinduty.svg";
 import LatestTag from "./latestTag";
 import SmallCalenderIcon from "./smallCalenderIcon";
-import BlinkingDate from "./blinkingDate";
 import SimpleDate from "./simpleDate";
 import selfFinanceLogo from "../../../public/self-finance-logo.svg";
 
@@ -24,7 +23,8 @@ export default function TimeLine() {
               </a>{" "}
               <LatestTag />
             </h3>
-            <BlinkingDate />
+            <SimpleDate content="Present" />
+            {/* <BlinkingDate /> */}
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
               <i>
                 self-finance application is a mobile application which is secure
@@ -81,27 +81,23 @@ export default function TimeLine() {
             <SimpleDate content="started on May 5th, 2023 - August 1st, 2023" />
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
               Flutter Developer at Banglore ~ Full time ~ Remote
-              <ol>
-                <li>
-                  <i>
-                    I have gained valuable experience as a Flutter developer
-                    since May 5th. During my time there, I worked on both the
-                    front-end and back-end development of various projects. I
-                    actively contributed to the development of two live andriod
-                    applications, namely{" "}
-                    <a href="https://ept.global/">
-                      <strong className="text-teal-600">
-                        EPT School Management
-                      </strong>
-                    </a>{" "}
-                    and{" "}
-                    <a href="https://divineduty.co/">
-                      <strong className="text-teal-600">Divine Duty</strong>
-                    </a>{" "}
-                    , which are currently available on the Play Store.
-                  </i>
-                </li>
-              </ol>
+              <i>
+                I have gained valuable experience as a Flutter developer
+                since May 5th. During my time there, I worked on both the
+                front-end and back-end development of various projects. I
+                actively contributed to the development of two live andriod
+                applications, namely{" "}
+                <a href="https://ept.global/">
+                  <strong className="text-teal-600">
+                    EPT School Management
+                  </strong>
+                </a>{" "}
+                and{" "}
+                <a href="https://divineduty.co/">
+                  <strong className="text-teal-600">Divine Duty</strong>
+                </a>{" "}
+                , which are currently available on the Play Store.
+              </i>
             </p>
             <a
               href="https://play.google.com/store/apps/details?id=guru.ept.mobile&hl=en_IN&gl=US"

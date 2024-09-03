@@ -7,13 +7,18 @@ import TimeLine from "./components/timeline";
 import PreviousWebPageHolder from "../pages/components/perviousWebPageHolder";
 import PreviousMobileDevHolder from "../pages/components/previousMobileDevHolder";
 import react from "react";
-import { previousMobileDevelopmentWorks, previousWebDevelopmentWorks } from "../apis/previousWorks";
+import {
+  previousMobileDevelopmentWorks,
+  previousWebDevelopmentWorks,
+} from "../apis/previousWorks";
 import ServicesSection from "./components/servives";
 
 export default function Home() {
+  const resumeUri =
+    "https://drive.google.com/file/d/19CUXlhgW-NStlYv0FKVF4wDsruulotcJ/view?usp=drive_link";
   const onButtonClick = () => {
     const link = document.createElement("a");
-    link.href = "https://drive.google.com/file/d/1BE9PHaQ-VBFAj45oAPkAs2OEdTNzCDww/";
+    link.href = resumeUri;
     link.download = "vamshi-krishna-resume.pdf"; // specify the filename
     document.body.appendChild(link);
     link.click();
@@ -71,8 +76,8 @@ export default function Home() {
             <Image
               alt="kamsali vamshi krishna"
               src={dumbun}
-              layout="fill"
               objectFit="cover"
+              loading="lazy"
             />
           </div>
         </section>

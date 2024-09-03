@@ -9,7 +9,7 @@ export default function previousWebPageHolder(props) {
           className="rounded-lg object-cover"
           width={"100%"}
           height={"100%"}
-          layout="responsive"
+          loading="lazy"
           src={props.src}
         />
       </a>

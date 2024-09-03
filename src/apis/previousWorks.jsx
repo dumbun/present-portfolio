@@ -8,6 +8,7 @@ import web6 from "../../public/web6.png";
 import web7 from "../../public/web7.png";
 import web8 from "../../public/web8.png";
 import web9 from "../../public/web9.png";
+import web10 from "../../public/web10.png";
 import oldTerminalSite from "../../public/old-terminal-site.png";
 import PreviousSiteGif from "../../public/previousSite.gif";
 import blogSite from "../../public/blog-site.png";
@@ -22,6 +23,7 @@ export const previousWebDevelopmentWorks = [
   { src: web7, link: "https://dumbun.github.io/stop-watch/" },
   { src: web8, link: "https://dumbun.github.io/Tip-Calculator/" },
   { src: web9, link: "https://dumbun.github.io/weather-app/" },
+  { src: web10, link: "https://my-list-dcc10.web.app/" },
   { src: blogSite, link: "https://bright-lamb-tux.cyclic.app/" },
   { src: oldTerminalSite, link: "https://dumbun.github.io/old-site/" },
   { src: PreviousSiteGif, link: "https://dumbun.github.io/first_portfolio/" },

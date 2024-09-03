@@ -12,6 +12,8 @@ import {
   previousWebDevelopmentWorks,
 } from "../apis/previousWorks";
 import ServicesSection from "./components/servives";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function Home() {
   const resumeUri =
@@ -27,6 +29,8 @@ export default function Home() {
   const [darkMode, setDarkMode] = react.useState(false);
   return (
     <div className={darkMode ? "dark" : ""}>
+      <SpeedInsights />
+      <Analytics />
       <Head>
         <title>Kamsali Vamshi Krishna</title>
         <meta
